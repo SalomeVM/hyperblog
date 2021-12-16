@@ -1,4 +1,5 @@
 body {
+    background: black;
     color: #333;
     text-align: center;
     font-family: Arial;
@@ -22,12 +23,20 @@ body {
     font-size: .8em;
 }
 
+#cabecera img {
+    width: 30px;
+    padding: auto;
+    ;
+}
+
 #container {
     width: 70%;
+    height: 100vh;
     padding: 1em;
     text-align: left;
     border: 1px solid #DDD;
     margin: 0 auto;
+    background: white;
 }
 
 #container h1 {
